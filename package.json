@@ -1,0 +1,36 @@
+{
+  "name": "roboconnection-example",
+  "version": "0.0.1",
+  "description": "An example using roboconnection.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "yarn clean && tsc && webpack",
+    "test": "mocha",
+    "clean": "shx rm -rf lib dist",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:wwlib/roboconnection-example.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^9.4.6",
+    "mocha": "~2.4.5",
+    "shx": "^0.3.2",
+    "source-map-loader": "^0.2.3",
+    "ts-loader": "^5.3.0",
+    "typescript": "^2.0.0",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2"
+  },
+  "keywords": [
+    "robo,robot,connection,rom,remote operation mode"
+  ],
+  "author": "Andrew Rapo <andrew@wwlib.org> (http://wwlib.org/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wwlib/roboconnection-example/issues"
+  },
+  "homepage": "https://github.com/wwlib/roboconnection-example#readme"
+}
