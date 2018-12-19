@@ -14,6 +14,7 @@ import { JiboConnection, ConnectionInfo, RobotInfo, Requester } from 'roboconnec
 const connectionInfo: ConnectionInfo = {
     clientId: 'CLIENT_ID',
     clientSecret: 'SECRET_KEY',
+    port: 7160,
 }
 
 const robotInfo: RobotInfo = {
